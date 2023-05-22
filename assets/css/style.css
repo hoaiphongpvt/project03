@@ -97,6 +97,7 @@ a {
 
 .logo__brand {
     display: block;
+    font-family: Sora, sans-serif;
     font-size: 1.8em;
     font-weight: 400;
     color: #FFFFFF;
@@ -722,4 +723,112 @@ a {
 
 .appointment__btn {
     margin-top: 38px;   
+}
+
+/* Footer */
+.footer {
+    margin-top: 85px;
+    padding: 100px 0 42px 0;
+    background: #10375C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: 1fr .4fr .4fr 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc {
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #A9B3BB;
+}
+
+.footer__heading {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 26px;
+    color: #A9B3BB;
+}
+
+.footer__list {
+    margin: 20px 0 28px 0;
+}
+
+.social {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer__social-btn {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+.footer__social-btn:hover {
+    background: #2E80CE;
+}
+
+.footer__social-btn:hover .footer__social-logo {
+    fill: white;
+}
+
+.footer__social-logo {
+    fill: #2E80CE;
+}
+
+.form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    width: 212px;
+    height: 46px;
+    padding: 10px;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.footer__submit {
+    min-width: 108px;
+    width: 108px;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 12px;
+    border-radius: 4px;
+    border: none;
+}
+
+.footer__bottom {
+    border-top: 1px solid #406181;
+}
+
+.copyright {
+    margin-top: 28px;   
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 26px;
+    text-align: center;
+    color: #AAB3BA;
 }
